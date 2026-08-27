@@ -1,71 +1,458 @@
-<!DOCTYPE html>
+a<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
-<link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-<link rel="manifest" href="./assets/favicon/web-app-manifest-192x192.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./assets/favicon/web-app-manifest-192x192.png" />
     <title>Meta bnb</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css"/>
-</head>
-<body>
-
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <nav class="nav-wrapper">
-        <a data-aos="fade-right" data-aos-duration="800" href="/">
-            <img class="nav-logo-img" src="./assets/images/logo.png" alt="logo"/>
-        </a>
+      <a data-aos="fade-right" data-aos-duration="800" href="/">
+        <img class="nav-logo-img" src="./assets/images/logo.png" alt="logo" />
+      </a>
 
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/places.html">Place to stay</a></li>
-            <li><a href="/nft.html">NFTs</a></li>
-            <li><a href="/community.html">Community</a></li>
-               <li><a href="/mbtoken.html">mbtoken</a></li>
-                          
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/places.html">Place to stay</a></li>
+        <li><a href="/nft.html">NFTs</a></li>
+        <li><a href="/community.html">Community</a></li>
+      </ul>
 
-        <button data-aos="fade-left" data-aos-duration="800"  class="connect-button">
-            Connect wallet
-        </button>
-        <img src="./assets/images/menu-icon.png" alt="menu icon" class="nav-menu-icon"/>
-
+      <button
+        data-aos="fade-left"
+        data-aos-duration="800"
+        class="connect-button"
+      >
+        Connect wallet
+      </button>
+      <img
+        src="./assets/images/menu-icon.png"
+        alt="menu icon"
+        class="nav-menu-icon"
+      />
     </nav>
 
+    <main>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="hero-left" data-aos="fade-right" data-aos-duration="600">
+          <h1>
+            Rent a <span class="purple-text">Place</span> away from
+            <span class="purple-text">Home</span> in the
+            <span class="purple-text">Metaverse</span>
+          </h1>
 
-    <!-- hero section -->
-    <section class="hero-section">
-        <div class="hero-left">
-              <h1>
-                Rent a <span class="purple-text">Place</span> away from 
-                <span class="purple-text">Home</span> in the <span class="purple-text">Metaverse</span>
-              </h1>
+          <p>
+            We provide you access to luxury and affordable house in the
+            metaverse, get a chance to turn your imagination to reality at your
+            comfort zone.
+          </p>
 
-
-              <p>
-                We provide you access to luxury and affordable house in the 
-                metaverse, get a chance to turn your imagination to reality at
-                your comfort zone.
-              </p>
-
-              <form>
-                <input class="hero-input" type="email" placeholder="Enter your email address"/>
-                <button class="submit" type="submit">Submit</button>
-              </form>
-
+          <form>
+            <input
+              class="hero-input"
+              type="email"
+              placeholder="Enter your email address"
+            />
+            <button class="submit" type="submit">Submit</button>
+          </form>
         </div>
 
-        <div class="hero-right">
-            <img src="./assets/images/hero-image.png" alt="hero image"/>
+        <div class="hero-right" data-aos="fade-left" data-aos-duration="600">
+          <img src="./assets/images/hero-image.png" alt="hero image" />
+        </div>
+      </section>
+
+      <!-- SECTION LOGOS -->
+
+      <section class="section-logo">
+        <img src="./assets/images/mbtokenlogo.svg" alt="" />
+
+        <img src="./assets/images/metamasklogo.svg" alt="" />
+
+        <img src="./assets/images/opensealogo.svg" alt="" />
+      </section>
+
+      <!-- section nft display -->
+
+      <section class="nft-display">
+        <h3>Inspiration for your next adventure</h3>
+      
+
+       
+        <div class="cards-wrapper">
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+
+          <div class="nft-card">
+            <div class="card-img-wrapper">
+              <img
+                src="./assets/images/nftimg1.png"
+                alt="nft image"
+                class="main-card-img"
+              />
+              <img
+                src="./assets/images/hearticon.png"
+                alt=" heart icon"
+                class="heart-icon"
+              />
+            </div>
+
+            <div class="first-card-text">
+              <span>Desert King</span>
+              <span class="nightrate">1MBT per night</span>
+            </div>
+
+            <div class="second-card-text">
+              <span>2345km away</span>
+              <span>Available for 2 wks stay</span>
+            </div>
+
+            <div class="ratings-wrapper">
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+              <img src="./assets/images/ratingsstar.svg" alt="rating star" />
+            </div>
+          </div>
+        </div>
+      
+      </section>
+
+      <!-- section learn more -->
+
+      <section class="learn-more-section">
+        <div class="learn-more-left" data-aos="fade-right" data-aos-duration="900">
+          <h3>Metabnb NFTs</h3>
+
+          <p>
+            Discover our nft gift cards collection. Loyal customers get amazing
+            gift cards which are traded as nfts. These NFTs gives our customers
+            access to load of our exclusive services.
+          </p>
+
+          <a href="/community.html" target="_blank">Learn more </a>
         </div>
 
-    </section>
+        <div data-aos="fade-left" data-aos-duration="900" class="learn-more-right">
+          <img src="./assets/images/nftcollection.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div data-aos="fade-right" data-aos-duration="900" class="divone">
+        <a href="" target="_blank">
+          <img src="./assets/images/logowhite.svg" alt="white logo" />
+        </a>
+
+        <div class="social-wrapper">
+          <a href="" target="_blank">
+            <img src="./assets/images/facebook.png" alt="facebook icon" />
+          </a>
+
+          <a href="" target="_blank">
+            <img src="./assets/images/instagram.png" alt="facebook icon" />
+          </a>
+
+          <a href="" target="_blank">
+            <img src="./assets/images/twitter.png" alt="facebook icon" />
+          </a>
+        </div>
+
+        <div class="copyright-wrapper">
+          <img src="./assets/images/copyright.png" alt="" />
+
+          <span>2022 metabnb</span>
+        </div>
+      </div>
+
+      <div class="divone">
+        <h5>Community</h5>
+
+        <ul>
+          <li><a href="/nft.html" target="_blank">NFT</a></li>
+          <li><a href="/token.html" target="_blank">Tokens</a></li>
+          <li><a href="" target="_blank">Landlords</a></li>
+
+          <li><a href="" target="_blank">Discord</a></li>
+        </ul>
+      </div>
+
+      <div class="divone">
+        <h5>Places</h5>
+
+        <ul>
+          <li><a href="/places.html" target="_blank">Castle</a></li>
+          <li><a href="/places.html" target="_blank">Farms</a></li>
+          <li><a href="/places.html" target="_blank">Beach</a></li>
+
+          <li><a href="./community.html" target="_blank">Learn more</a></li>
+        </ul>
+      </div>
+
+      <div class="divone">
+
+        <h5>About us</h5>
+
+        <ul>
+            <li><a href="" target="_blank">Road map</a></li>
+            <li><a href="" target="_blank">Creators</a></li>
+            <li><a href="" target="_blank">Career</a></li>
+
+            <li><a href="" target="_blank">Contact us</a></li>
+        </ul>
+      </div>
+    </footer>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
-</body>
+      AOS.init();
+    </script>
+  </body>
 </html>
